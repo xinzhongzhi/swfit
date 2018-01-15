@@ -14,6 +14,10 @@
 		C4109A382008447000ADED4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4109A362008447000ADED4C /* LaunchScreen.storyboard */; };
 		C4109A432008447000ADED4C /* funsArea___swfitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4109A422008447000ADED4C /* funsArea___swfitTests.swift */; };
 		C4109A4E2008447000ADED4C /* funsArea___swfitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4109A4D2008447000ADED4C /* funsArea___swfitUITests.swift */; };
+		C4109A5D2008451B00ADED4C /* AreaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4109A5B2008451B00ADED4C /* AreaTableViewController.swift */; };
+		C4109A5E2008451B00ADED4C /* AreaTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4109A5C2008451B00ADED4C /* AreaTableViewController.xib */; };
+		C4109A60200849B900ADED4C /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4109A5F200849B900ADED4C /* CustomTableViewCell.swift */; };
+		C4109A62200892CF00ADED4C /* AreaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4109A61200892CF00ADED4C /* AreaDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		C4109A492008447000ADED4C /* funsArea - swfitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "funsArea - swfitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4109A4D2008447000ADED4C /* funsArea___swfitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "funsArea___swfitUITests.swift"; sourceTree = "<group>"; };
 		C4109A4F2008447000ADED4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4109A5B2008451B00ADED4C /* AreaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaTableViewController.swift; sourceTree = "<group>"; };
+		C4109A5C2008451B00ADED4C /* AreaTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaTableViewController.xib; sourceTree = "<group>"; };
+		C4109A5F200849B900ADED4C /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		C4109A61200892CF00ADED4C /* AreaDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				C4109A2D2008447000ADED4C /* AppDelegate.swift */,
 				C4109A2F2008447000ADED4C /* ViewController.swift */,
 				C4109A312008447000ADED4C /* Main.storyboard */,
+				C4109A5B2008451B00ADED4C /* AreaTableViewController.swift */,
+				C4109A61200892CF00ADED4C /* AreaDetailViewController.swift */,
+				C4109A5C2008451B00ADED4C /* AreaTableViewController.xib */,
+				C4109A5F200849B900ADED4C /* CustomTableViewCell.swift */,
 				C4109A342008447000ADED4C /* Assets.xcassets */,
 				C4109A362008447000ADED4C /* LaunchScreen.storyboard */,
 				C4109A392008447000ADED4C /* Info.plist */,
@@ -232,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4109A5E2008451B00ADED4C /* AreaTableViewController.xib in Resources */,
 				C4109A382008447000ADED4C /* LaunchScreen.storyboard in Resources */,
 				C4109A352008447000ADED4C /* Assets.xcassets in Resources */,
 				C4109A332008447000ADED4C /* Main.storyboard in Resources */,
@@ -261,6 +274,9 @@
 			files = (
 				C4109A302008447000ADED4C /* ViewController.swift in Sources */,
 				C4109A2E2008447000ADED4C /* AppDelegate.swift in Sources */,
+				C4109A62200892CF00ADED4C /* AreaDetailViewController.swift in Sources */,
+				C4109A60200849B900ADED4C /* CustomTableViewCell.swift in Sources */,
+				C4109A5D2008451B00ADED4C /* AreaTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
